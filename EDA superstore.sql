@@ -1,6 +1,6 @@
 use superstore;
 
--- How many orders we have the last 4 years ?
+-- Total orders for the last 4 years 
 
 SELECT COUNT(OrderID) as Total_Orders
 FROM orders;
